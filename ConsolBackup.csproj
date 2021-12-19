@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>winexe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+ <ItemGroup>
+     <Reference Include="DllComunVb2008">
+       <HintPath>..\Packages\Ionic.Zip.1.9.1.8\lib\Ionic.Zip.dll</HintPath>
+     </Reference>
+    </ItemGroup>
+</Project>
